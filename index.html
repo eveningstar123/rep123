@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>Admin Main</title>
+  <link type="text/css" rel="stylesheet" href="css/common.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <!-- CSS media query on a link element -->
+  <link type="text/css" rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" media="(max-width:767px)" href="css/layout767.css" />
+  <link rel="stylesheet" media="(max-width:479px)" href="css/layout479.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+</head>
+
+<body>
+<!-- skip navi -->
+<div class="skip-navi" title="skip navigation">
+    <a href="#container">Go to Content</a>
+    <a href="#header">Go to Menu</a>
+</div>
+<!-- //skip navi -->
+<!--[if lte IE 9]><body class="ie"><![endif]-->
+<div class="notice_wrap">
+	<p>This site is optimized for Chrome, Internet Explorer 10 browsers.</p>
+</div>
+<!-- wrap -->
+<div id="wrap">
+	<header id="header">
+      <h2 class="skip hide">Main menu area</h2>
+  		<h1 class="logo"><a href="#none">LOGO Admin</a></h1>
+      <!-- utill -->
+      <div class="utill">
+        <a href="#none">home</a>
+        <a href="#none">sitemap</a>
+        <div class="site_search">
+          <button type="button" class="btn_search" title="open search">search</button>
+        </div>        
+        <div class="area_search_wrap">
+           <a href="#none" id="btn_search_close" class="btn btn_black" title="close search">x</a>
+            <div class="area_search_inner">
+              <input type="text" name="keyword" id="search_keyword" class="input_search">
+              <lable for="search_keyword" id="search_lable" class="hide">search bar</lable>
+              <button type="button" class="btn btn_grey" onclick=""><span>search</span></button>
+            </div>           
+        </div>    
+        <button type="button" class="nav_toggle" >
+            <span class="hide">Toggle navigation</span>
+            <span class="icon_bar"></span>
+            <span class="icon_bar"></span>
+            <span class="icon_bar"></span>
+        </button>    
+      </div>
+      <!-- //utill -->
+      <!-- GNB -->
+      <div class="gnb">
+        <ul class="nav_left" id="side_menu">
+            <li>
+                <a href="index.html" class="active">Menu1</a>
+            </li>
+            <li>
+                <a href="#none">Menu2</a>
+                <ul class="nav_sec_lv">
+                    <li>
+                        <a href="#none">Menu2-1</a>
+                    </li>
+                    <li>
+                        <a href="#none">Menu2-2</a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+            <li>
+                <a href="#none">Menu3</a>
+                <ul class="nav_sec_lv">
+                    <li>
+                        <a href="#none">Menu3-1</a>
+                    </li>
+                    <li>
+                        <a href="#none">Menu3-2</a>
+                    </li>
+                </ul>
+                <!-- /.nav-second-level -->
+            </li>
+        </ul>              
+      </div>
+	</header>
+
+  <!-- container -->
+  <section class="container" id="container">
+      <!-- page header -->
+      <div class="page_header">
+        <h1 class="tit">DASHBOARD</h1>
+      </div>
+      <!-- main board -->
+      <div class="grid_row">
+        <div class="grid12">
+          <div class="panel">
+            <div class="panel_header">
+              <h2 class="tit">LIST BOARD</h2>
+              <p>sub title</p>
+            </div>
+            <!-- table -->
+            <table class="table">
+                <thead>
+                  <tr>
+                      <th>#</th>
+                      <th>Project Name</th>
+                      <th>Start Date</th>
+                      <th>Due Date</th>
+                      <th>Status</th>
+                      <th>Assign</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                      <td>1</td>
+                      <td>Admin v1</td>
+                      <td>01/01/2017</td>
+                      <td>26/04/2017</td>
+                      <td><span class="badge">Released</span></td>
+                      <td>admin</td>
+                  </tr>
+                  <tr>
+                      <td>2</td>
+                      <td>Admin v1</td>
+                      <td>01/01/2017</td>
+                      <td>26/04/2017</td>
+                      <td><span class="badge">Released</span></td>
+                      <td>admin</td>
+                  </tr>
+                  <tr>
+                      <td>3</td>
+                      <td>Admin v1.1</td>
+                      <td>01/05/2017</td>
+                      <td>10/05/2017</td>
+                      <td><span class="badge">Pending</span></td>
+                      <td>admin</td>
+                  </tr>
+                  <tr>
+                      <td>4</td>
+                      <td>Admin v1.1</td>
+                      <td>01/01/2017</td>
+                      <td>31/05/2017</td>
+                      <td><span class="badge">Work in Progress</span>
+                      </td>
+                      <td>admin</td>
+                  </tr>
+                  <tr>
+                      <td>5</td>
+                      <td>Admin v1.3</td>
+                      <td>01/01/2017</td>
+                      <td>31/05/2017</td>
+                      <td><span class="badge">Coming soon</span></td>
+                      <td>admin</td>
+                  </tr>
+                </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- //main board -->
+      <!-- list 3-1 -->
+      <div class="grid_row">
+        <div class="grid8 grid12_m grid12_s">
+          <div class="panel">
+            <div class="panel_header">
+              <h2 class="tit">Total</h2>            
+            </div> 
+            <div class="panel_cont">
+              Total
+            </div>
+          </div>
+        </div>
+        <div class="grid4 grid12_m grid12_s">
+          <div class="panel">
+            <div class="panel_header">
+              <h2 class="tit">Local Menu</h2>            
+            </div>   
+            <div class="panel_cont">
+            </div>        
+          </div>
+        </div>
+      </div>
+      <!-- List -->
+      <div class="grid_row">
+        <div class="grid3 grid6_m grid12_s">
+          <div class="panel">
+            <div class="panel_header">
+              <h2 class="tit">List1</h2>            
+            </div>  
+            <div class="panel_cont">
+              <button class="btn btn_grey">Yes</button>
+              <button class="btn btn_black">Yes</button>
+              <button class="btn btn_white">Yes</button>
+              <br /><br />
+              <button class="btn btn_grey btn_small">Yes</button>
+              <button class="btn btn_black btn_small">Yes</button>
+              <button class="btn btn_white btn_small">Yes</button>
+            </div>            
+          </div>
+        </div>
+        <div class="grid3 grid6_m grid12_s">
+          <div class="panel">
+             <div class="panel_header">
+              <h2 class="tit">List2</h2>            
+            </div> 
+            <div class="panel_cont">
+              <div class="btn01"><a href="#none">more</a></div>
+              <br /><br />
+              <div class="btn02"><a href="#none">GO</a></div>
+              <br /><br />
+              <div class="btn04">
+                <button class="button01"><span>Hover Me</span></button>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="grid3 grid6_m grid12_s">
+          <div class="panel">
+            <div class="panel_header">
+              <h2 class="tit">List3</h2>            
+            </div> 
+            <div class="panel_cont">
+              <div class="btn03">
+                <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+                <label class="menu-open-button" for="menu-open">
+                 <span class="lines line-1"></span>
+                 <span class="lines line-2"></span>
+                 <span class="lines line-3"></span>
+                </label>
+              </div>
+              <div class="btn06">
+                <a href="#none" class="open_gn open-object" id="look-object" style="color:#222">
+                  <span class="linebox">
+                    <i class="line n1"></i>
+                    <i class="line n2"></i>
+                    <i class="line n3"></i>
+                  </span>
+                  test
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid3 grid6_m grid12_s">
+          <div class="panel">
+            <div class="panel_header">
+              <h2 class="tit">List4</h2>            
+            </div> 
+            <div class="panel_cont">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //List -->
+      
+
+  </section>
+	<!-- // container -->
+  
+  <footer id="footer">
+		2017 © StickInteractive
+  </footer>
+
+</div>
+
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script>
+  $(document).ready(function(){
+      $('.site_search').on('click', function(){
+        $('.area_search_wrap').slideDown();
+      });
+      $('#btn_search_close').on('click', function(){
+        $('.area_search_wrap').slideUp();
+      });
+      $('.nav_toggle').on('click', function(){
+        $(this).toggleClass('icon-on');   
+        if($('.nav_toggle').hasClass('icon-on')) {
+            $('#side_menu').slideDown(500);
+        }
+        else {
+            $('#side_menu').slideUp(500);  
+         }
+        });
+      $(window).resize(function(){
+          if($(window).width() > 750){
+            $('#side_menu').show();
+           }else{
+            $('#side_menu').hide();            
+           }
+      });
+        
+  });
+</script>
+</body>
+
+</html>
